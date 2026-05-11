@@ -13,7 +13,7 @@ app = FastAPI(title="Team Task Manager API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://team-task-manager-production-3845.up.railway.app"],
+    allow_origins=["http://localhost:5173", "https://team-task-manager-xi-umber.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
